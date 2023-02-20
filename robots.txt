@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://skrinka-na-klice.na-eshopu.cz/sitemap.xml

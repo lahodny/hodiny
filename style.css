@@ -1,0 +1,40 @@
+.line-bck-1 {
+background: repeating-linear-gradient(
+-73deg,
+rgba(201,168,119,1) 40%,
+rgba(155,131,90,1) 68%,
+rgba(213,179,124,1) 100%,
+rgba(155,131,90,1) 0%);
+}
+.box-body-1 {
+    clip-path: polygon(0 7%, 100% 0%, 100% 100%, 0% 100%);
+}
+.box-body-2 {
+    clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+}
+.box-body-3 {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+.box-body-4 {
+    clip-path: polygon(0 32%, 100% 0%, 100% 100%, 0% 100%);
+}
+@media (min-width: 1400px) {
+.box-img {
+    float: right;
+}
+}
+@media (min-width: 1200px) {
+.box-img {
+	margin-top: 0px !important;
+}
+}
+@media (min-width: 280px) {
+.box-img {
+    width: 140px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	display: block;
+}
+}
